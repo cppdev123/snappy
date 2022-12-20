@@ -176,7 +176,7 @@ check_cxx_source_compiles("
 #include <immintrin.h>
 int main() {
   return _bzhi_u32(0, 1);
-}" SNAPPY_HAVE_BMI2)
+}" DISABLED_SNAPPY_HAVE_BMI2)
 
 check_cxx_source_compiles("
 #include <arm_neon.h>
